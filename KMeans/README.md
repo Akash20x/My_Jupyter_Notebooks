@@ -1,6 +1,6 @@
 # Clustering
 
-## The term clustering describes the process of partitioning a dataset into several subsets, also known as clusters. A key challenge in clustering is unsupervised learning (it means that no target variable, a.k.a. Y variable, is required to train the algorithm).
+### The term clustering describes the process of partitioning a dataset into several subsets, also known as clusters. A key challenge in clustering is unsupervised learning (it means that no target variable, a.k.a. Y variable, is required to train the algorithm).
 
 # K-Means Clustering
 
