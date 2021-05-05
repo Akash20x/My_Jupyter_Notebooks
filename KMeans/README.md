@@ -14,7 +14,7 @@
 
 ### K-means imagines each cluster as a solar system.The star that everything (all the observations) in the cluster revolves around is known as the cluster’s centroid.So given a set of centroids and their coordinates (where the X coordinate is fare and the Y coordinate is age), we can easily figure out what cluster each observation belongs to by calculating which centroid it is closest to (in terms of Euclidean distance).
 
-### But how do we decide where the centroids are? That’s where the K-means algorithm comes in. First, we pick a value for $k$, the number of centroids (this is a hyperparameter that we must tune). Let’s say we pick $k=4$. Then we can just pick $4$ points at random and assign them to be our starting centroids. And using our randomly chosen starting centroids, we can create $4$ clusters. Sounds kind of silly right? What’s the point to picking random centroids and creating random clusters?
+### But how do we decide where the centroids are? That’s where the K-means algorithm comes in. First, we pick a value for k, the number of centroids (this is a hyperparameter that we must tune). Let’s say we pick k=4. Then we can just pick 4 points at random and assign them to be our starting centroids. And using our randomly chosen starting centroids, we can create $4$ clusters. Sounds kind of silly right? What’s the point to picking random centroids and creating random clusters?
 
 ### Here’s the trick: the means of our clusters become our new centroids. And as long as our starting randomly picked centroids were even slightly different from each other, the new centroids (the cluster means) will be more optimal than our initial clusters; where optimization is based on all the mathematics we just described.
 
