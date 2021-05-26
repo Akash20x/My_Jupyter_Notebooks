@@ -11,3 +11,7 @@ plt.plot(X_test,L.predict(X_test),label="Modal")
 plt.scatter(X_train,y_train,label="data", color="r")
 plt.legend()
 plt.show()
+
+
+data['column-name'].fillna('S',inplace=True)
+Data.column-name.isnull.any() 
