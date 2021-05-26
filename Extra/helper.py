@@ -14,4 +14,4 @@ plt.show()
 
 
 data['column-name'].fillna('S',inplace=True)
-Data.column-name.isnull.any() 
+data.column-name.isnull.any() 
