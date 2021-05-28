@@ -15,3 +15,7 @@ plt.show()
 
 data['column-name'].fillna('S',inplace=True)
 data.column-name.isnull.any() 
+
+
+sns.distplot(chess_df['turns'])
+sns.boxplot(chess_df['turns'])
