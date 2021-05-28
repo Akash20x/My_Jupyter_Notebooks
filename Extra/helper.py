@@ -24,3 +24,5 @@ chess_df=chess_df[['rated', 'created_at', 'last_move_at', 'turns', 'victory_stat
        'winner', 'increment_code', 'white_rating',
        'black_rating', 'moves', 'opening_eco','opening_name','opening_ply']]
 chess_df_subset
+
+chess_df.dtypes
