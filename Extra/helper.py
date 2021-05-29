@@ -81,3 +81,9 @@ plt.figure(figsize=(10,6))
 with plt.style.context('ggplot'):
     sns.countplot(x='mfr',hue='shelf',data=cereals_df2)
 plt.title('Grouped by mfr and shelf')
+
+cereals_df2[cereals_df2.mfr=='Quaker Oats']
+
+
+sns.regplot(x='fat',y='calories',data=cereals)
+plt.title('Fat vs Calories')
