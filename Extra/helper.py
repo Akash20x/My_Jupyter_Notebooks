@@ -69,3 +69,9 @@ manufacturer_df.reset_index('mfr', inplace=True)
 #group cereal manufacturer using the mean rating
 manufacturer=cereals_df2.groupby(['mfr'])['rating'].mean()
 manufacturer_df = pd.DataFrame(manufacturer)
+
+plt.figure(figsize=(10,6))
+
+with plt.style.context('ggplot'):
+    sns.countplot(x='mfr',hue='shelf',data=cereals_df2)
+plt.title('Grouped by mfr and shelf')
