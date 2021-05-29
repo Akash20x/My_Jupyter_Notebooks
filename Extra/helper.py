@@ -62,3 +62,8 @@ for row in ax:
                
 plt.suptitle("Cereals Components Distribution", size=15)   
 plt.show()
+
+
+#group cereal types using the mean rating
+types_df=cereals_df.groupby(['type'])['rating'].mean()
+types_df
