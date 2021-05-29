@@ -20,6 +20,12 @@ data.column-name.isnull.any()
 sns.distplot(chess_df['turns'])
 sns.boxplot(chess_df['turns'])
 
+plt.hist(cereals_df.carbo)
+plt.title('Carbohydrates Histogram')
+plt.xlabel('Carbohydrates')
+plt.ylabel('Frequency')
+
+
 chess_df=chess_df[['rated', 'created_at', 'last_move_at', 'turns', 'victory_status',
        'winner', 'increment_code', 'white_rating',
        'black_rating', 'moves', 'opening_eco','opening_name','opening_ply']]
