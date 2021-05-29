@@ -63,7 +63,9 @@ for row in ax:
 plt.suptitle("Cereals Components Distribution", size=15)   
 plt.show()
 
+#convert "mfr" variable into a column
+manufacturer_df.reset_index('mfr', inplace=True)
 
-#group cereal types using the mean rating
-types_df=cereals_df.groupby(['type'])['rating'].mean()
-types_df
+#group cereal manufacturer using the mean rating
+manufacturer=cereals_df2.groupby(['mfr'])['rating'].mean()
+manufacturer_df = pd.DataFrame(manufacturer)
