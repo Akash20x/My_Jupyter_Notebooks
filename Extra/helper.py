@@ -87,3 +87,5 @@ cereals_df2[cereals_df2.mfr=='Quaker Oats']
 
 sns.regplot(x='fat',y='calories',data=cereals)
 plt.title('Fat vs Calories')
+
+df.nunique()
