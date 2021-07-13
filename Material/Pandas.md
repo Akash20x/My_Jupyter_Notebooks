@@ -1,2 +1,3 @@
 pandas.qcut
+
 pandas.cut
