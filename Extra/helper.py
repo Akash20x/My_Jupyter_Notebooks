@@ -89,3 +89,14 @@ sns.regplot(x='fat',y='calories',data=cereals)
 plt.title('Fat vs Calories')
 
 df.nunique()
+
+
+def remove_outlier_IQR(df):
+    Q1=df.quantile(0.25)
+    Q3=df.quantile(0.75)
+    IQR=Q3-Q1
+    df_final=df[~((df<(Q1-1.5*IQR)) | (df>(Q3+1.5*IQR)))]
+    return df_final
+
+
+
