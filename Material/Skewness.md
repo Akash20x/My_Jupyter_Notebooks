@@ -1,0 +1,1 @@
+for our data and many machine learning algorithms prefer or perform better when numerical data has a normal distribution we need a way to remove this skewness, in order to do so in python the most frequently used methods are PowerTransformer and QuantileTransformer. Both these methods are used to get a normal or Gaussian like distribution
