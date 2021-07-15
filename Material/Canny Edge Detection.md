@@ -1,0 +1,1 @@
+Canny Edge detection was applied on the gray scale version of the image and outputs a binary image containing edges. These images with edges can then be used to detect contours and plotted on the original image. We can also sort the contours by area to get only the most significant ones.
