@@ -7,7 +7,7 @@ Unlike feedforward neural networks (FNN), RNNs can use their internal state memo
 * natural language processing (NLP)
 * handwriting recognition, 
 * time-series predictions, 
-* time-series #anomalydetection  
+* time-series anomalydetection  
 * rhythm learning 
 
 RNNs are designed to take a series of inputs with no predetermined limit on size. It remembers the past and its decisions are influenced by what it has learned from the past. 
