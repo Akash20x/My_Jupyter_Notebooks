@@ -5,7 +5,7 @@ The process of selecting the most important features in a given dataset
 
 Why can't we simply give all the features to our ML algorithm?
 
-There are mainly 3⃣ reasons:
+There are mainly 3 reasons:
 - Curse of Dimensionality
 - Occam's Razor
 - GIGO (Garbage In Garbage Out)
@@ -26,7 +26,7 @@ If we have many redundant features (extension of other features) - understanding
 
 When we give noisy, non-informative features to our model, it will affect the performance of the model.
 
-🦄Poor quality input will produce poor quality output🦄
+Poor quality input will produce poor quality output. 
 
 
 A large no. of features make the model complex, bulky, & harder to implement in production
