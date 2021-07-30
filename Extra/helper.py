@@ -99,4 +99,6 @@ def remove_outlier_IQR(df):
     return df_final
 
 
-
+size = tips["size"]
+size.loc[:15] = np.nan
+size.head(20)
