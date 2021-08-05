@@ -11,3 +11,5 @@ An additional set of extensions of these models is available for use where the o
 The distinction from the multivariate case is that the forcing series may be deterministic or under the experimenter's control. For these models, the acronyms are extended with a final "X" for "exogenous".
 
 https://towardsdatascience.com/deep-learning-for-time-series-data-ed410da30798
+
+https://towardsdatascience.com/introduction-to-time-series-forecasting-part-2-arima-models-9f47bf0f476b
