@@ -102,3 +102,23 @@ def remove_outlier_IQR(df):
 size = tips["size"]
 size.loc[:15] = np.nan
 size.head(20)
+
+
+
+ax= pd.crosstab(df['Senior Citizen'], df['Churn Value']).apply(lambda r: r/r.sum()*100, axis=1)
+# ax.loc[(ax.index=='Los Angeles')]
+cw=ax.plot.bar(figsize=(8,8),stacked=True, rot=0,title = 'Stacked Bar Graph')
+
+# plt.legend(loc='upper center', bbox_to_anchor=(0.1, 1.0), title="Subject")
+# plt.xlabel('Name')
+# plt.ylabel('Percent Distribution')
+
+for rec in cw.patches:
+    height = rec.get_height()
+    cw.text(rec.get_x() + rec.get_width() / 2, 
+              rec.get_y() + height / 2,
+              "{:.0f}%".format(height),
+              ha='center', 
+              va='bottom')
+
+plt.show()
