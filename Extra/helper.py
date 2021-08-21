@@ -122,3 +122,9 @@ for rec in cw.patches:
               va='bottom')
 
 plt.show()
+
+
+
+
+
+telecom_customer.loc[(telecom_customer['Internet Service']=="Fiber optic")]                                                  
