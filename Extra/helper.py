@@ -128,3 +128,11 @@ plt.show()
 
 
 telecom_customer.loc[(telecom_customer['Internet Service']=="Fiber optic")]                                                  
+
+# Other method
+# fig = go.Figure()
+
+# for col in telco_df.columns[~telco_df.columns.isin(['state','area_code','churn'])]:
+#     fig.add_trace(go.Box(y=telco_df[col].values, name=telco_df[col].name))
+
+# fig.show()
