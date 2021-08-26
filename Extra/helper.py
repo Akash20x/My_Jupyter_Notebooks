@@ -136,3 +136,17 @@ telecom_customer.loc[(telecom_customer['Internet Service']=="Fiber optic")]
 #     fig.add_trace(go.Box(y=telco_df[col].values, name=telco_df[col].name))
 
 # fig.show()
+
+
+import plotly.graph_objects as go
+
+
+# fig = go.Figure(data=go.Heatmap(
+#                    z=df_heatmap.corr().values,
+#                    x=df_heatmap.corr().index,
+#                    y=df_heatmap.corr().columns,
+#                    hoverongaps = True)
+#                )
+
+# fig.show()
+
