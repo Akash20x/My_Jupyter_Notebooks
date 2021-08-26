@@ -150,3 +150,16 @@ import plotly.graph_objects as go
 
 # fig.show()
 
+
+
+# print("Missing Values:\n")
+# for x in telco_customer:
+#   print(f'{x} :{round(100*(telco_customer[x].isnull().sum()/len(telco_customer)),2)}%')
+
+
+
+
+
+
+
+
