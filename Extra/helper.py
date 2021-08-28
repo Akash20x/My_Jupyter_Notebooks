@@ -159,7 +159,5 @@ import plotly.graph_objects as go
 
 
 
-
-
-
+rf = RandomForestClassifier(n_estimators=200, random_state=0,max_depth=12)
 
