@@ -1,0 +1,3 @@
+python -m venv project
+project\scripts\activate
+deactivate project
