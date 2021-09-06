@@ -161,3 +161,12 @@ import plotly.graph_objects as go
 
 rf = RandomForestClassifier(n_estimators=200, random_state=0,max_depth=12)
 
+
+
+for x in final[['state', 'area_code', 'international_plan','voice_mail_plan']].dtypes:
+                if x!='object':
+                    final="error"    
+    
+ for x in final.columns[~final.columns.isin(['state','area_code','international_plan','voice_mail_plan'])]:
+         if final[x].dtypes!='float64':
+             final="error"
